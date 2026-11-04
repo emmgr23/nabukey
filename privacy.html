@@ -41,7 +41,7 @@
     <img src="icone-sombre.png" alt="">
     <div>
       <h1>NabuKey Privacy Policy</h1>
-      <p class="date">Effective October 11, 2026</p>
+      <p class="date">Effective November 4, 2026</p>
     </div>
   </header>
   <nav class="langues"><a href="#en">English</a><a href="#fr">Français</a></nav>
@@ -76,7 +76,21 @@
     <p>CloudKit identifies you with an anonymous identifier that Apple creates for this app. We never see your Apple ID, your name or your email address.</p>
 
     <h2>Optional AI connection (Max)</h2>
-    <p>If you connect your own AI provider in Connection (for example OpenAI, Anthropic, Google or another service you configure), the text, audio or screenshot you ask it to work on is sent directly from your iPhone to that provider, with your own API key, and nothing else. That provider's privacy policy then applies. Your API key is stored in the iOS Keychain. Nothing is sent to an AI provider unless you set one up and use it.</p>
+    <p>NabuKey has no AI service of its own. With Max, you can connect your own account at a third party AI provider (for example OpenAI, Anthropic, Google, or another service you configure) and choose, function by function, which work it does. Before anything is sent, the app shows what will be sent and who will receive it, and asks for your permission. If you do not allow it, nothing is sent and the iPhone does the work.</p>
+    <ul>
+      <li><strong>What is sent, and when.</strong> Only the content of the function you use, at the moment you use it:
+        <ul>
+          <li><em>Dictation</em>: the audio of your voice while you dictate.</li>
+          <li><em>Correction</em>: the text you ask to correct.</li>
+          <li><em>Translation</em>: the text you translate.</li>
+          <li><em>Prompts</em>: the text you copy or write for a prompt, the prompt itself, and the image when you use one.</li>
+        </ul>
+        Nothing else is sent: not what you type outside these functions, not your clipboard history, not your learned words or statistics.</li>
+      <li><strong>Who receives it.</strong> Only the provider you configured, at the address shown in the permission screen, directly from your iPhone with your own API key. It never passes through us: we have no server.</li>
+      <li><strong>How it is used.</strong> Only to return the result you asked for (the transcription, correction, translation or answer), which NabuKey writes where you are typing. NabuKey keeps no copy of what is sent and uses it for nothing else.</li>
+      <li><strong>Protection.</strong> Data travels encrypted over HTTPS. Your API key is stored in the iOS Keychain and is never shown again. The provider processes what it receives under its own privacy policy and terms, which you accept when you create your API key with it, for example <a href="https://openai.com/policies/privacy-policy/">OpenAI</a>, <a href="https://www.anthropic.com/legal/privacy">Anthropic</a> or <a href="https://policies.google.com/privacy">Google</a>. NabuKey sends data only to a provider you chose and allowed.</li>
+      <li><strong>Your control.</strong> Withdraw your permission at any time in Connection (the connection's menu, Withdraw permissions), give a function back to the iPhone, or delete the connection and its key.</li>
+    </ul>
 
     <h2>Downloads</h2>
     <p>Optional dictation models you choose to download are fetched from Hugging Face. Only the file request is made; nothing about you is sent.</p>
@@ -92,7 +106,7 @@
       <li>Remove Full Access, or the keyboard itself, at any time in Settings, General, Keyboard.</li>
       <li>Delete your feature requests and comments from the board, and report or hide anyone else's.</li>
       <li>Delete the app's iCloud data in Settings, your name, iCloud, Manage Storage.</li>
-      <li>Disconnect your AI provider in Connection at any time.</li>
+      <li>Withdraw your permission, or disconnect your AI provider, in Connection at any time.</li>
     </ul>
 
     <h2>Changes and contact</h2>
@@ -103,7 +117,7 @@
 
   <section id="fr" lang="fr">
     <h1 style="font-size:24px">Politique de confidentialité de NabuKey</h1>
-    <p class="date">En vigueur depuis le 11 octobre 2026</p>
+    <p class="date">En vigueur depuis le 4 novembre 2026</p>
     <div class="resume" style="margin-top:20px"><p><strong>En bref.</strong> NabuKey n'a ni serveur ni compte à lui. Aucune publicité, aucune mesure d'audience, aucun pistage, et rien de vous n'est vendu. Ce que vous tapez, dictez et copiez est traité sur votre iPhone. Une donnée ne quitte l'appareil que si vous utilisez une fonction qui en a besoin, et seulement vers l'endroit décrit ci dessous.</p></div>
 
     <h2>Ce qui reste sur votre iPhone</h2>
@@ -133,7 +147,21 @@
     <p>CloudKit vous désigne par un identifiant anonyme créé par Apple pour cette app. Nous ne voyons jamais votre identifiant Apple, votre nom ni votre adresse e mail.</p>
 
     <h2>Connexion à une IA (Max, facultative)</h2>
-    <p>Si vous connectez votre propre fournisseur d'IA dans Connexion (par exemple OpenAI, Anthropic, Google ou un autre service que vous configurez), le texte, le son ou la capture que vous lui demandez de traiter part directement de votre iPhone vers ce fournisseur, avec votre propre clé, et rien d'autre. La politique de confidentialité de ce fournisseur s'applique alors. Votre clé est gardée dans le trousseau d'iOS. Rien n'est envoyé à une IA tant que vous n'en avez pas configuré et utilisé une.</p>
+    <p>NabuKey n'a aucun service d'IA à lui. Avec Max, vous pouvez connecter votre propre compte chez un fournisseur d'IA tiers (par exemple OpenAI, Anthropic, Google ou un autre service que vous configurez) et choisir, fonction par fonction, le travail qu'il fait. Avant tout envoi, l'app montre ce qui partira et qui le recevra, et vous demande votre accord. Sans votre accord, rien ne part et l'iPhone fait le travail.</p>
+    <ul>
+      <li><strong>Ce qui part, et quand.</strong> Seulement le contenu de la fonction que vous utilisez, au moment où vous l'utilisez :
+        <ul>
+          <li><em>Dictée</em> : le son de votre voix pendant que vous dictez.</li>
+          <li><em>Correction</em> : le texte que vous demandez de corriger.</li>
+          <li><em>Traduction</em> : le texte que vous traduisez.</li>
+          <li><em>Prompts</em> : le texte que vous copiez ou écrivez pour un prompt, le prompt lui même, et l'image quand vous en utilisez une.</li>
+        </ul>
+        Rien d'autre ne part : ni ce que vous tapez hors de ces fonctions, ni l'historique du presse papiers, ni les mots appris ou les statistiques.</li>
+      <li><strong>Qui le reçoit.</strong> Seulement le fournisseur que vous avez configuré, à l'adresse affichée dans l'écran d'accord, directement depuis votre iPhone avec votre propre clé. Rien ne passe par nous : nous n'avons aucun serveur.</li>
+      <li><strong>À quoi ça sert.</strong> Uniquement à rendre le résultat demandé (la transcription, la correction, la traduction ou la réponse), que NabuKey écrit là où vous tapez. NabuKey ne garde aucune copie de ce qui part et ne s'en sert pour rien d'autre.</li>
+      <li><strong>Protection.</strong> Les données voyagent chiffrées, en HTTPS. Votre clé est gardée dans le trousseau d'iOS et n'est jamais réaffichée. Le fournisseur traite ce qu'il reçoit selon sa propre politique de confidentialité et ses conditions, que vous acceptez en créant votre clé chez lui, par exemple <a href="https://openai.com/policies/privacy-policy/">OpenAI</a>, <a href="https://www.anthropic.com/legal/privacy">Anthropic</a> ou <a href="https://policies.google.com/privacy">Google</a>. NabuKey n'envoie qu'au fournisseur que vous avez choisi et autorisé.</li>
+      <li><strong>Votre contrôle.</strong> Retirez votre accord à tout moment dans Connexion (menu de la connexion, Retirer les autorisations), rendez une fonction à l'iPhone, ou supprimez la connexion et sa clé.</li>
+    </ul>
 
     <h2>Téléchargements</h2>
     <p>Les modèles de dictée facultatifs que vous choisissez de télécharger viennent de Hugging Face. Seule la demande du fichier est faite ; rien de vous n'est envoyé.</p>
@@ -149,7 +177,7 @@
       <li>Retirer l'accès complet, ou le clavier, à tout moment dans Réglages, Général, Clavier.</li>
       <li>Supprimer vos demandes et commentaires du tableau, et signaler ou masquer ceux des autres.</li>
       <li>Supprimer les données iCloud de l'app dans Réglages, votre nom, iCloud, Gérer le stockage.</li>
-      <li>Déconnecter votre fournisseur d'IA dans Connexion à tout moment.</li>
+      <li>Retirer votre accord, ou déconnecter votre fournisseur d'IA, dans Connexion à tout moment.</li>
     </ul>
 
     <h2>Modifications et contact</h2>
